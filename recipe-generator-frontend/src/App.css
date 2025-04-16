@@ -1,0 +1,16 @@
+/* App.css (or your preferred global styles file) */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  /* min-height: 100vh; */
+}
+/* .sideleft{
+  position: sticky;
+  top: 0;
+} */

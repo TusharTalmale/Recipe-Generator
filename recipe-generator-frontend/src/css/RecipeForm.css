@@ -1,0 +1,119 @@
+/* RecipeForm.css */
+.sidebar {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 300px;
+    min-height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .sidebar h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: vertical;
+  }
+  
+  button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button[type="submit"] {
+    background-color: #27ae60;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #219a52;
+  }
+  
+  .addingrediant {
+    background-color: #3498db;
+    color: white;
+    margin-top: 5px;
+  }
+  
+  .addingrediant:hover {
+    
+    background-color: #2980b9;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #ecf0f1;
+  }
+  
+  li button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  li button:nth-child(1) {
+    margin-left: 1px;
+    background-color: #e74c3c;
+  }
+  
+  li button:nth-child(2) {
+    background-color: #3498db;
+  }
+  
+  li button:hover {
+    opacity: 0.9;
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 10px;
+    transform: scale(1.2);
+  }
+  
+  /* Editing state */
+  li input[type="text"] {
+    flex-grow: 1;
+    margin-right: 5px;
+    padding: 5px;
+  }
