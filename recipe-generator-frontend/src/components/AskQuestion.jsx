@@ -14,7 +14,7 @@ function AskQuestion({ recipe }) {
     const handleQuestionSubmit = async () => {
       // Make API call to your backend's /api/recipes/ask endpoint
       try {
-        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/recipes/ask`, {
+        const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/recipes/ask`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
